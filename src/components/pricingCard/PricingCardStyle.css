@@ -1,0 +1,74 @@
+.card-container {
+  display: grid;
+  margin: auto;
+  max-width: 1140px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10rem;
+  justify-content: center;
+  padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-container {
+    margin: auto;
+    max-width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+
+.card:hover {
+  background-color: rgb(32, 32, 32);
+}
+
+.card h2 {
+  color: white;
+  font-weight: 700;
+  font-family: "Satoshi", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.card h3 {
+  color: white;
+  font-weight: 700;
+  font-family: "Satoshi", sans-serif;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.pricing h1 {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  font-weight: 700;
+}
+
+.btn {
+  display: block;
+  margin: 2rem;
+}
+
+span {
+  border-bottom: 1px solid white;
+  width: 10%;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.card h4 {
+  color: white;
+  font-weight: 500;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1.25em;
+  padding: 0.6rem 0;
+}
+
+.card .btn {
+  margin: 1rem 2rem;
+}

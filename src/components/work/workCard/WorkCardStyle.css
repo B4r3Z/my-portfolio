@@ -1,0 +1,62 @@
+div h1 {
+  font-family: "Satoshi", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+.project-heading {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  font-weight: 700;
+}
+
+.project-container {
+  display: grid;
+  margin: auto;
+  max-width: 1800px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10rem;
+  justify-content: center;
+  padding: 4rem 4rem;
+}
+
+.project-card {
+  background: #1a1a1a;
+}
+
+.pro-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Satoshi", sans-serif;
+}
+.pro-details h2 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
+.pro-details p {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-container {
+    margin: auto;
+    max-width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
