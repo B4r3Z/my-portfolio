@@ -15,7 +15,7 @@ export const WorkCard = ({ imgsrc, title, text, view }) => {
           <NavLink to={view} className="btn">
             View
           </NavLink>
-          <NavLink to="Google.com" className="btn">
+          <NavLink to="https://www.google.com/" className="btn">
             Source
           </NavLink>
         </div>
